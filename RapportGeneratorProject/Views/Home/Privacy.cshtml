@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<h1>@ViewData["Title"]</h1>
+
+
+
+<p>Use this page to detail your site's privacy policy.</p>
+
+    <h3>Wisc</h3>
+    <form asp-controller="HomeController" asp-action="SubmitForm" method="post">
+      <div class="mb-3">
+      <label for="hik">Hele intelligens Kvotient (hik):</label>
+      <input type="number" id="hik" name="hik"/>
+      </div>
+
+      <div class="mb-3">
+      <label for="vfi">Verbal Forståelses Indeks (vfi):</label>
+      <input type="number" id="vfi" name="vfi" />
+      </div>
+
+      <button type="submit">Generer Rapport</button>
+    </form>
