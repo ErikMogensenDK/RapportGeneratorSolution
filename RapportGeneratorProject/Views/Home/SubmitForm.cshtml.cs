@@ -3,10 +3,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace RapportGeneratorProject.Views.Home
 {
-    public class GeneratedRapportModel : PageModel
+    public class SubmitFormModel : PageModel
     {
         public void OnGet()
         {
+
         }
     }
 }

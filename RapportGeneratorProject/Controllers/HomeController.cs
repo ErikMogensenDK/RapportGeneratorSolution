@@ -26,10 +26,13 @@ namespace RapportGeneratorProject.Controllers
         [HttpPost]
         public IActionResult SubmitForm(int hik, int vfi)
         {
+            int new_variable = hik + vfi;
+            // Store somewhere, and load on the submitform page?
             // Generate rapport using input
             // upload document
             // change to page where you can download rapport
             // change comment for github test
+            //return View("~/Views/Home/SubmitForm.cshtml");
             return View();
         }
 
